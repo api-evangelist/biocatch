@@ -1,8 +1,20 @@
 aid: biocatch
 name: BioCatch
-description: 'BioCatch is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  BioCatch is a financial-fraud and financial-crime prevention platform that uses
+  behavioral intelligence — analyzing how people physically interact with their
+  devices — to detect threats that static rules and device recognition miss. The
+  platform monitors account-opening fraud, account takeover, social-engineering
+  scams, mule accounts, and money-laundering networks across the digital banking
+  session. Marquee products include BioCatch Connect (the core telemetry and
+  behavioral-analysis platform), Scams360, BioCatch Trust (an inter-bank fraud
+  intelligence network), DeviceIQ / DeviceIQai device-trust assessment, mule and
+  account-takeover protection, and Strong Customer Authentication. Integration is
+  delivered under contract through platform components such as the Push API, Align
+  SDK, Link, Fuse, the Insights Query Engine, and Rule Manager; developer
+  documentation lives behind a login at docs.biocatch.com rather than a public
+  developer portal. BioCatch serves 350+ global retail banks, protects over 680
+  million accounts, and analyzes roughly 18 billion sessions monthly.
 url: https://raw.githubusercontent.com/api-evangelist/biocatch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +22,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.biocatch.com/hubfs/2020%20Rebrand/branding/favicon-color.png
 tags:
 - Company
 - Security
+- Fraud Prevention
+- Behavioral Biometrics
+- Fraud Detection
+- Financial Crime
+- Identity
+- Banking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.biocatch.com/
+- type: Blog
+  url: https://www.biocatch.com/blog
+- type: Support
+  url: https://www.biocatch.com/customer-support
+- type: TermsOfService
+  url: https://www.biocatch.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.biocatch.com/privacy-policy
+- type: Compliance
+  url: https://www.biocatch.com/trust
+- type: Conformance
+  url: conformance/biocatch-conformance.yml
+- type: DomainSecurity
+  url: security/biocatch-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.biocatch.com/trust
+notes: >-
+  BioCatch is an enterprise behavioral-biometrics fraud-prevention vendor.
+  Its integration surface (Push API, Align SDK, Link, Fuse, Insights Query
+  Engine, Rule Manager) is delivered under contract behind a login-gated
+  documentation portal (docs.biocatch.com), so no public OpenAPI, well-known,
+  or self-service developer portal is available to assert cross-cutting API
+  standards against. The compliance program below is published on their site.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'BioCatch states it is "fully compliant with ... SOC 2 Type 2" (biocatch.com/trust)'
+- id: iso-27001
+  conforms: true
+  evidence: 'BioCatch states it is "fully compliant with ... ISO 27001" (biocatch.com/trust)'
+- id: gdpr
+  conforms: true
+  evidence: 'BioCatch states it is "fully compliant with GDPR", with a dedicated Data Protection Officer (biocatch.com/trust)'
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface; docs are login-gated
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API specification available to assert error format
