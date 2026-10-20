@@ -23,8 +23,9 @@ edges:
   relationship: distribution-channel
   direction: third-party
   evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=BioCatch
-  listing_count: 2
+  listing_count: 3
   apps:
+  - 'Private: BioCatch-Behavioral Biometrics'
   - BioCatchPrivateOffer
   - BioCatch Behavioral Biometrics
   seller_name: BioCatch
